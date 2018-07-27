@@ -1,0 +1,7 @@
+WORKING CURL COMMANDS : 
+URL: https://9esvedjug7.execute-api.us-east-1.amazonaws.com/DEV/loyalty-guest-lookup
+CURL Script: 
+$ curl --request POST https://9esvedjug7.execute-api.us-east-1.amazonaws.com/DEV/loyalty-guest-lookup
+--header "Content-Type: application/json" 
+--header "Authorization: Bearer <Dynamic token>" 
+--data '[{"GuestID": "NSoWBMr"}]' 
